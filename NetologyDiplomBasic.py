@@ -5,7 +5,6 @@ from collections import Counter
 from alive_progress import alive_bar
 import json
 
-
 class Backup:
     def __init__(self, vktoken, yatoken):
         self.vktoken = vktoken
