@@ -1,9 +1,10 @@
 import requests
+import json
 from pprint import pprint
 from datetime import datetime
 from collections import Counter
 from alive_progress import alive_bar
-import json
+
 
 class Backup:
     def __init__(self, vktoken, yatoken):
